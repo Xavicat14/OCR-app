@@ -11,7 +11,7 @@ import pandas as pd
 import base64
 
 
-img= Image.open('C:/Users/xavie/OneDrive/Desktop/5200010.png')
+img= Image.open('5200010.png')
 st.set_page_config(page_title='OCR app', page_icon=img)
 
 hide_streamlit_style = """
