@@ -1,0 +1,7 @@
+easyocr==1.4.1
+streamlit==1.4.0
+Pillow==8.2.0
+numpy==1.19.5
+io
+pandas==1.3.4
+base64
