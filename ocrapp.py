@@ -30,7 +30,6 @@ st.markdown("")
 image = st.file_uploader(label = "Upload the image",type=['png','jpg','jpeg','gif'])
 
 
-@st.cache
 def reader(): 
     reader = ocr.Reader(['en','es','hu'])
     return reader 
