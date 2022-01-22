@@ -26,16 +26,10 @@ st.markdown('#### Optical Character Recognition with EasyOcr')
 
 st.markdown("")
 
-#image uploade
+#image uploaded
 image = st.file_uploader(label = "Upload the image",type=['png','jpg','jpeg','gif'])
 
-
-def reader(): 
-    reader = ocr.Reader(['en','es','hu'])
-    return reader 
-
-
-reader = reader() #load model
+reader = ocr.Reader(['en'])
 
 if image is not None:
 
